@@ -1,8 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/style.css'],
-  plugins: [
-    {src: '~/script.js', mode: 'client'}
-  ]
+  css: ['~/style.css']
 })

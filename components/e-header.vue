@@ -13,6 +13,9 @@
                     <p>
                         <NuxtLink class="menu-item" to="/collaborate" exact-active-class="active">Collaborate</NuxtLink>
                     </p>
+                    <p>
+                        <NuxtLink class="menu-item" to="/patch" exact-active-class="active">STAY EARNEST</NuxtLink>
+                    </p>
                 </div>
             </div>
 

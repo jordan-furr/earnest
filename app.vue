@@ -2,8 +2,9 @@
   <div>
     <e-header />
     <NuxtPage />
+    <e-footer />
     <div class="logo-patch-container">
-      <img class="logo-patch" src="/img/Earnest Project Patch.png" alt="">
+      <img class="logo-patch fade-in" src="/img/Earnest Project Patch.png" alt="">
     </div>
   </div>
 </template>

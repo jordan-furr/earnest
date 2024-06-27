@@ -1,5 +1,4 @@
 
-import type { activate } from 'firebase/remote-config';
 <template>
     <div>
         <nav>
@@ -13,7 +12,6 @@ import type { activate } from 'firebase/remote-config';
                 </li>
             </ul>
         </nav>
-        <br>
         <p>{{ activeTab.content }}</p>
     </div>
 </template>
@@ -31,7 +29,7 @@ export default {
         { label: 'PASSIONATE', content: "having a strong belief in something" },
         { label: 'AUTHENTIC', content: "true to your own personality, values, and spirit, regardless of the pressure that you're under to act otherwise." }
       ],
-      activeTab: { label: 'none', content: 'click traits to explore' }
+      activeTab: { label: 'none', content: '^ explore key earnest traits' }
     };
   },
   methods: {
