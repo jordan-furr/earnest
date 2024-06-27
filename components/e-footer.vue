@@ -11,8 +11,13 @@
                 <newsletter />
             </div>
         </div> 
-        <div>
-            <p class="copyright">© 2024 The Earnest Project by <a href="https://upschool.org">UP School</a></p>
+        <div class="flex flex-row space-between">
+            <div>
+                <p class="copyright">© 2024 The Earnest Project by <a href="https://upschool.org">UP School</a></p>
+            </div>
+            <div>
+                IG
+            </div>
         </div>
     </div>
 </template>
