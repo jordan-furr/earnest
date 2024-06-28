@@ -775,3 +775,24 @@ img {
 .bluecursor {
     cursor: url('/img/2.png'), auto;
 }
+
+.champions {
+    height: 70vh;
+}
+
+.champions::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+.champions::-webkit-scrollbar-track {
+    background: white;
+}
+  
+.champions::-webkit-scrollbar-thumb {
+    background: var(--yellow);
+}
+  
+.champions::-webkit-scrollbar-thumb:hover {
+    background: var(--darkorange);
+}
