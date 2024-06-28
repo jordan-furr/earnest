@@ -15,4 +15,7 @@
             </div>
         </div>
     </div>
+    <div class="logo-patch-container w-15">
+      <img class="logo-patch w-90 float-right" src="/img/Earnest Project Patch.png" alt="">
+    </div>
 </template>

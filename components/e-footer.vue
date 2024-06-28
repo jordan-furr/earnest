@@ -1,25 +1,54 @@
 <template>
     <div class="ph5 mb4">
-        <div class="flex flex-row w-85 space-between mb6">
+        <div class="flex flex-row w-80 space-between mb6">
             <div class="w-25">
                 <p class="boldspace">The Earnest Project</p>
                 <br>
-                <p>"stay earnest"</p>
+                <p>stay earnest</p>
                 <br>
                 <p>CONTACT</p>
-                <p>info@upschool.org</p>
+                <span @click="copyEmail" style="color: white;" class="contactemail">info@upschool.org</span>
+                <span v-if="copied" class="copied">copied!</span>
+                <br>
+                <br>
+                <div class="w-10">
+                    <a target="_blank" href="https://www.instagram.com/theearnestproject/"><img class="w-80 bluecursor" src="/img/ig.webp" alt=""></a>
+                    
+                </div>
             </div>
-            <div class="w-25">
+            <div class="w-30">
                 <newsletter />
             </div>
         </div> 
         <div class="flex flex-row space-between">
             <div>
-                <p class="copyright">© 2024 The Earnest Project by <a href="https://upschool.org">UP School</a></p>
-            </div>
-            <div>
-                IG
+                <p class="copyright">© 2024 The Earnest Project by <a href="https://upschool.org" class="bluecursor">UP School</a></p>
             </div>
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            copied: false
+        };
+    },
+    methods: {
+        copyEmail() {
+            const email = 'info@upschool.org';
+            navigator.clipboard.writeText(email)
+                .then(() => {
+                    this.copied = true;
+                    setTimeout(() => {
+                        this.copied = false;
+                    }, 1500);
+                })
+                .catch(error => {
+                    console.error('Failed to copy:', error);
+                });
+        }
+    }
+};
+</script>

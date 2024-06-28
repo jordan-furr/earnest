@@ -212,6 +212,10 @@ h6 {
     width: 10%;
 }
 
+.w-5 {
+    width: 5%;
+}
+
 .h-100vh {
     height: 100vh;
 }
@@ -534,6 +538,14 @@ h6 {
     margin-bottom: 0;
 }
 
+.mb1 {
+    margin-bottom: 0.25rem;
+}
+
+.mb2 {
+    margin-bottom: 0.5rem;
+}
+
 .mb3 {
     margin-bottom: 1rem;
 }
@@ -595,6 +607,10 @@ html, body {
     background-color: var(--orange);
 }
 
+* {
+    cursor: url('/img/1.png'), auto;
+}
+
 p {
     color: white;
 }
@@ -604,6 +620,14 @@ a {
     text-decoration: none;
 }
 
+.font14{
+    font-size: 14px;
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
 .boldspace {
     font-weight: bold;
     letter-spacing: 1px;
@@ -611,30 +635,39 @@ a {
 }
 
 .nav-menu {
+    font-weight: bold;
     font-size: 18px;
+    letter-spacing: 1px;
     gap: 1.25rem;
 }
 
 .menu-item {
-    cursor: pointer;
+    cursor: url('/img/2.png'), auto;;
     letter-spacing: 1px;
 }
 
 .logo-patch {
-    width: 160px;
+    max-width: 100%;
     height: auto;
+    cursor: url('/img/2.png'), auto;
 }
 
 .logo-title {
     font-size: 24px;
     font-weight: 600;
     letter-spacing: 1px;
+    cursor: url('/img/2.png'), auto;
 }
 
 .logo-patch-container{
     position: fixed;
     right: 2rem;
     bottom: 2rem;
+}
+
+.logo-patch:hover {
+    transition: 300ms ease-in-out;
+    transform: scale(105%);
 }
 
 .active {
@@ -651,7 +684,7 @@ a {
 }
 
 .tabs li .tab-label{
-    cursor: pointer;
+    cursor: url('/img/2.png'), auto;
     color: white;
 }
 
@@ -662,53 +695,53 @@ a {
 .email-box {
     display: flex;
     align-items: center;
-    background-color: transparent;
+    background-color: white;
+}
+
+.email-box:hover {
+    cursor: url('/img/2.png'), auto;
 }
 
 .email-box input[type="email"] {
     flex: 1;
-    padding-right: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px;
     margin-right: 10px;
+    margin-left: 4px;
     border: none;
     background-color: transparent;
-    border-bottom: 2px solid transparent;
     transition: border-bottom-color 0.3s ease;
-    color: white;
+    color: var(--darkgreen);
     outline: none;
+    font-size: 15px;
+}
+
+.email-box input[type="email"]:hover {
+    cursor: url('/img/2.png'), auto;
 }
 
 .email-box input[type="email"]::placeholder {
-    color: var(--pink);
+    color: var(--blue);
 }
 
-.email-box input[type="email"]:focus {
-    border-bottom-color: var(--lightyellow); 
-  }
 
 .email-box button {
     padding: 12px 32px;
     border: none;
     border-radius: 0px;
-    background-color: var(--pink);
+    background-color: var(--lightblue);
     font-weight: bold;
     font-size: 16px;
-    color: var(--darkgreen); 
-    cursor: pointer;
+    color: var(--blue); 
+    cursor: url('/img/2.png'), auto;
 }
   
 .email-box button:hover {
-    background-color: var(--darkgreen); 
+    background-color: var(--lightyellow); 
     transition: 0.3s ease;
 }
 
 .copyright {
     font-size: 12px;
-}
-
-.font14{
-    font-size: 14px;
 }
 
 img {
@@ -727,4 +760,18 @@ img {
     to {
         opacity: 1;
     }
+}
+
+.copied {
+    margin-left: 16px;
+    color: var(--yellow);
+}
+
+.contactemail:hover{
+    text-decoration: underline;
+    cursor: url('/img/2.png'), auto;
+}
+
+.bluecursor {
+    cursor: url('/img/2.png'), auto;
 }
