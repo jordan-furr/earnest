@@ -5,6 +5,12 @@
             <div class="flex flex-row flex-start">
                 <div class="flex flex-row nav-menu">
                     <p>
+                        <NuxtLink class="menu-item" to="/manifesto" exact-active-class="active">Manifesto</NuxtLink>
+                    </p>
+                    <p>
+                        <NuxtLink class="menu-item" to="/champions" exact-active-class="active">Champions</NuxtLink>
+                    </p>
+                    <p>
                         <NuxtLink class="menu-item" to="/about" exact-active-class="active">About</NuxtLink>
                     </p>
                     <p>

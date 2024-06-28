@@ -3,7 +3,7 @@
         <div class="flex flex-row">
             <div class="w-30">
                 <div class="mb7">
-                    <p class="boldspace">EARNEST PATCHES</p>
+                    <p class="boldspace">"STAY EARNEST" PATCHES</p>
                     <br>
                     <p>Designed by French Artist, Laurène Piju, we've created iron-on patches out of our 'stay earnest' motto.</p>
                     <br>
