@@ -471,6 +471,31 @@ h6 {
     margin: 0.75rem;
 }
 
+.mv1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.mv2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.mv3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mv4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.mv5 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .mh2 {
     margin-left: .5rem;
     margin-right: .5rem;
@@ -682,6 +707,38 @@ a {
     color: var(--pink);
 }
 
+.home-word {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.home-venn {
+    padding: 3rem;
+}
+
+.hover-auth{
+    position: relative;
+    display: inline-block;
+}
+
+.hover-auth:hover .popup-auth{
+    display: block;
+}
+
+.popup-auth {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: var(--midblue);
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 200px;
+}
+
 .tabs {
     display: flex;
     flex-direction: column;
@@ -804,3 +861,4 @@ img {
 .champions::-webkit-scrollbar-thumb:hover {
     background: var(--darkorange);
 }
+
