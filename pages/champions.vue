@@ -1,9 +1,9 @@
 <template>
     <div class="ph5 pv6 h-85vh">
         <p class="boldspace mb3">EARNEST CHAMPIONS</p>
-                <br>
+        <br>
         <div class="flex flex-row space-between">
-            <div class="mb7 w-25">
+            <div class="mb7 w-20">
                 <div class="overflow-y champions">
                     <div class="mr4">
                         <p class="boldspace mb2 yellow">WRITERS & POETS</p>
@@ -53,19 +53,23 @@
                         <br>
                         <br>
                     </div>
-
                 </div>
             </div>
-            <div class="w-40 text-center">
-                <img class="w-80" src="/img/earnest.jpg" alt="">
+            <div class="w-20 text-right">
+                <img class="w-100 mt5" src="/img/earnest.jpg" alt="">
+
             </div>
-            <div class="w-25">
-                <p class="boldspace mb3">WHAT?</p>
+            <div class="w-20 text-right">
+                <div class="mb7">
+                    <p class="boldspace mb3">WHAT?</p>
+                    <br>
+                    <p>A key component of The Earnest Project is highlighting people and projects that inspire us to stay
+                        earnest.</p>
+                </div>
+                <p class="boldspace mb3">SUBMIT</p>
                 <br>
-                <p>A key component of The Earnest Project is highlighting people and projects that inspire us to stay
-                    earnest.</p>
-                <br>
-                <p>This is a growing list. Please submit more earnestness.</p>
+                <p>This is a growing list. Please help us highlight more earnestness by submitting earnest projects.</p>
+
             </div>
         </div>
     </div>

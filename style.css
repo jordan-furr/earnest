@@ -381,6 +381,11 @@ h6 {
     padding-right: 2rem;
 }
 
+.ph6 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
 .pv1 {
     padding-bottom: 0.25rem;
     padding-top: 0.25rem;
@@ -567,6 +572,14 @@ h6 {
     margin-right: 2rem;
 }
 
+.mr6 {
+    margin-right: 3rem;
+}
+
+.ml6 {
+    margin-left: 3rem;
+}
+
 .mb0 {
     margin-bottom: 0;
 }
@@ -640,6 +653,10 @@ html, body {
     background-color: var(--orange);
 }
 
+*::-webkit-scrollbar {
+    display: none;
+}
+
 * {
     cursor: url('/img/1.png'), auto;
 }
@@ -675,7 +692,7 @@ a {
 }
 
 .menu-item {
-    cursor: url('/img/2.png'), auto;;
+    cursor: url('/img/2.png'), auto;
     letter-spacing: 1px;
 }
 
@@ -711,32 +728,82 @@ a {
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 1.5px;
+    cursor: url('/img/2.png'), auto;
+    padding-bottom: 1rem;
+    padding-top: 4px;
+    display: inline-block;
+    position: relative;
 }
 
 .home-venn {
-    padding: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
-.hover-auth{
+.hover-auth, .hover-pass, .hover-whole, .hover-princp, .hover-dili, .hover-mind {
     position: relative;
     display: inline-block;
+    width: max-content;
 }
 
-.hover-auth:hover .popup-auth{
+.hover-auth:hover .popup-auth, .hover-pass:hover .popup-pass, .hover-whole:hover .popup-whole, .hover-princp:hover .popup-princp, .hover-dili:hover .popup-dili, .hover-mind:hover .popup-mind{
     display: block;
 }
 
-.popup-auth {
+.popup {
     display: none;
     position: absolute;
     top: 100%;
-    right: 0;
-    background-color: var(--midblue);
-    padding: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 14px;
     z-index: 1;
     width: 200px;
+}
+
+.popup-auth {
+    text-align: left;
+    right: 0;
+    background-color: #daaa6a;
+    border: 3px solid var(--peach);
+}
+
+.popup-pass {
+    text-align: left;
+    right: 0;
+    background-color: var(--midgreen);
+    border: 3px solid var(--green);
+}
+
+.popup-whole {
+    top: -15%;
+    text-align: left;
+    left: 100%;
+    background-color: #f7a36f;
+    border: 3px solid var(--lightpink);
+}
+
+.popup-mind {
+    text-align: left;
+    left: 0;
+    background-color: #d3b4a0;
+    border: 3px solid var(--lightblue);
+}
+
+
+.popup-dili {
+    text-align: left;
+    left: 0;
+    background-color: #a6bdad;
+    border: 3px solid var(--yellow);
+}
+
+.popup-princp {
+    top: -50%;
+    text-align: left;
+    left: 100%;
+    background-color: var(--midblue);
+    border: 3px solid var(--lightblue);
 }
 
 .tabs {
@@ -847,6 +914,7 @@ img {
 
 .champions::-webkit-scrollbar {
     width: 10px;
+    display: block;
 }
   
 
