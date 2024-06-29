@@ -7,6 +7,7 @@
                 </div>
             </div>
             <div class="text-center w-50 mt6">
+                
                 <img class="w-100" src="/img/Earnest Venn Diagram.png" alt="">
             </div>
             <div class="w-25 text-right">
