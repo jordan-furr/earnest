@@ -1,7 +1,7 @@
 <template>
     <div class="page-container">
-        <div class="flex flex-row space-between">
-            <div class="mb7 w-20">
+        <div class="flex flex-row space-between mobile-col">
+            <div class="mb7 w-20 text-div">
                 <div class="w-90">
                     <div class="mb6">
                         <p class="boldspace">COLLABORATE</p>
@@ -15,7 +15,7 @@
                         <br>
                         <p>Are you interested in being interviewed for The Earnest Project?</p>
                     </div>
-                    <div class="mb6">
+                    <div class="">
                         <p class="boldspace">RESEARCH</p>
                         <br>
                         <p>Would you like to aid in research for The Earnest Project?</p>
@@ -25,7 +25,10 @@
             <div class="w-60 mt6 ph3 interactive-venn">
                 <interactive-venn />
             </div>
-            <div class="w-20 text-right">
+            <div>
+                <mobile-venn />
+            </div>
+            <div class="w-20 text-right hide-mobile">
                 <div class="mb6">
                     <p class="boldspace">CONTACT</p>
                     <br>

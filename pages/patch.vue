@@ -1,7 +1,7 @@
 <template>
     <div class="page-container">
-        <div class="flex flex-row space-between">
-            <div class="mb7 w-20">
+        <div class="flex flex-row space-between mobile-col">
+            <div class="mb6 w-20 text-div">
                 <div class="w-90">
                     <p class="boldspace">"STAY EARNEST" PATCHES</p>
                     <br>
@@ -12,10 +12,10 @@
                         messages. If you would like a patch, please reach out and we will mail you one free of charge.</p>
                 </div>
             </div>
-            <div class="w-60 text-center mt6 ph3">
-                <img class="w-60 fade-in" src="/img/Earnest Project Patch.png" alt="">
+            <div class="w-60 text-center mt6 ph3 big-patch">
+                <img class="w-50 fade-in" src="/img/Earnest Project Patch.png" alt="">
             </div>
-            <div class="w-20 text-right">
+            <div class="w-20 text-right hide-mobile">
                 <div class="mb6">
                     <p class="boldspace">CONTACT</p>
                     <br>

@@ -1,7 +1,7 @@
 <template>
     <div class="page-container">
-        <div class="w-100 flex flex-row">
-            <div class="w-20">
+        <div class="w-100 flex flex-row mobile-col">
+            <div class="w-20 text-div">
                 <div class="w-90">
                     <p class="boldspace">MANIFESTO</p>
                     <br>
@@ -22,8 +22,11 @@
             <div class="w-60 mt6 ph3 interactive-venn">
                 <interactive-venn />
             </div>
-            <div class="w-20 text-right">
-                <div class="w-90 float-right">
+            <div>
+                <mobile-venn />
+            </div>
+            <div class="w-20 text-right text-div mobile-text-left">
+                <div class="w-90 float-right mobile-float-left">
                     <p class="boldspace">ABOUT</p>
                     <br>
                     <p>Since 2017, our undertaking has been to discover, interview, and highlight indivduals engaged in all

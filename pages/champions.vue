@@ -1,7 +1,7 @@
 <template>
     <div class="page-container">
-        <div class="flex flex-row space-between">
-            <div class="mb7 w-20">
+        <div class="flex flex-row space-between mobile-col">
+            <div class="mb7 w-20 text-div">
                 <p class="boldspace">EARNEST CHAMPIONS</p>
                 <br>
                 <div class="overflow-y champions">
@@ -48,8 +48,8 @@
             <div class="w-60 mt6 ph3 interactive-venn">
                 <interactive-venn />
             </div>
-            <div class="w-20 text-right">
-                <div class="w-90 float-right">
+            <div class="w-20 text-right text-div mobile-text-left">
+                <div class="w-90 float-right mobile-float-left">
                     <div class="mb7">
                         <p class="boldspace">WHAT?</p>
                         <br>

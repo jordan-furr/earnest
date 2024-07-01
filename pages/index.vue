@@ -1,6 +1,6 @@
 <template>
     <div class="page-container">
-        <div class="w-100 flex flex-row home">
+        <div class="w-100 flex flex-row mobile-col">
             <div class="w-20 text-div">
                 <div class="w-90">
                     <values-menu />
@@ -8,6 +8,9 @@
             </div>
             <div class="w-60 mt6 ph3 interactive-venn">
                 <interactive-venn />
+            </div>
+            <div class="ph3">
+                <mobile-venn />
             </div>
             <div class="w-20 text-right text-div">
                 <p>celebrating earnest</p>
