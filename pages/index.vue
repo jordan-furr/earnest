@@ -37,7 +37,7 @@
                             </div>
                         </div>
                         <div class="w-40 home-venn">
-                            <img class="w-100" src="/img/Earnest Venn Diagram Only.png" alt="">
+                            <img class="w-100 fade-in" src="/img/Earnest Venn Diagram Only.png" alt="">
                         </div>
                         <div class="w-30 flex flex-col space-around">
                             <div class="float-left">

@@ -13,10 +13,9 @@
                 <br>
                 <div class="w-10">
                     <a target="_blank" href="https://www.instagram.com/theearnestproject/"><img class="w-80 bluecursor" src="/img/ig.webp" alt=""></a>
-                    
                 </div>
             </div>
-            <div class="w-30">
+            <div class="w-25">
                 <newsletter />
             </div>
         </div> 

@@ -16,7 +16,7 @@ export default {
             }
             console.log('Email submitted:', email);
             emailInput.value = '';
-            emailInput.placeholder = 'Your email...';
+            emailInput.placeholder = 'your email...';
         }
     }
 };
@@ -29,7 +29,7 @@ export default {
         <p>Sign up for updates on Earnest Project events, research, and collaboration opportunities.</p>
         <br>
         <div class="email-box">
-            <input type="email" id="emailInput" placeholder="Your email..." autocomplete="off">
+            <input type="email" id="emailInput" placeholder="your email..." autocomplete="off">
             <button @click="submitEmail()">join</button>
         </div>
     </div>

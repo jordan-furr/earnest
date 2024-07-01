@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-    --orange: #DD7D4E; 
+    --orange: #DD7D4E;
     --darkorange: #C45A16;
     --blue: #367EBA;
     --midblue: #A3C6E6;
@@ -140,7 +140,7 @@ h6 {
     width: 100%;
 }
 
-.w-95{
+.w-95 {
     width: 95%;
 }
 
@@ -332,7 +332,7 @@ h6 {
     padding-right: 0.25rem;
 }
 
-.pr2{
+.pr2 {
     padding-right: 0.5rem;
 }
 
@@ -340,19 +340,19 @@ h6 {
     padding-right: 1rem;
 }
 
-.pt1{
+.pt1 {
     padding-top: 0.25rem;
 }
 
-.pt2{
+.pt2 {
     padding-top: 0.5rem;
 }
 
-.pt3{
+.pt3 {
     padding-top: 1rem;
 }
 
-.pt4{
+.pt4 {
     padding-top: 1.5rem;
 }
 
@@ -649,7 +649,8 @@ h6 {
 
 
 
-html, body {
+html,
+body {
     background-color: var(--orange);
 }
 
@@ -670,7 +671,7 @@ a {
     text-decoration: none;
 }
 
-.font14{
+.font14 {
     font-size: 14px;
 }
 
@@ -709,7 +710,7 @@ a {
     cursor: url('/img/2.png'), auto;
 }
 
-.logo-patch-container{
+.logo-patch-container {
     position: fixed;
     right: 2rem;
     bottom: 2rem;
@@ -735,6 +736,10 @@ a {
     position: relative;
 }
 
+.home-word:hover{
+    color:  var(--yellow);
+}
+
 .home-venn {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -742,13 +747,23 @@ a {
     padding-bottom: 3rem;
 }
 
-.hover-auth, .hover-pass, .hover-whole, .hover-princp, .hover-dili, .hover-mind {
+.hover-auth,
+.hover-pass,
+.hover-whole,
+.hover-princp,
+.hover-dili,
+.hover-mind {
     position: relative;
     display: inline-block;
     width: max-content;
 }
 
-.hover-auth:hover .popup-auth, .hover-pass:hover .popup-pass, .hover-whole:hover .popup-whole, .hover-princp:hover .popup-princp, .hover-dili:hover .popup-dili, .hover-mind:hover .popup-mind{
+.hover-auth:hover .popup-auth,
+.hover-pass:hover .popup-pass,
+.hover-whole:hover .popup-whole,
+.hover-princp:hover .popup-princp,
+.hover-dili:hover .popup-dili,
+.hover-mind:hover .popup-mind {
     display: block;
 }
 
@@ -758,7 +773,7 @@ a {
     top: 100%;
     padding: 14px;
     z-index: 1;
-    width: 200px;
+    width: 180px;
 }
 
 .popup-auth {
@@ -813,21 +828,49 @@ a {
     padding: 0;
     margin: 0;
     margin-bottom: 2rem;
+    cursor: url('/img/2.png'), auto;
 }
 
-.tabs li .tab-label{
+.tabs li .tab-label {
     cursor: url('/img/2.png'), auto;
     color: white;
+    font-size: 18px;
+    line-height: 1.15;
+}  
+
+.tabs li .tab-label::before {
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background: white;
+    clip-path: circle(5px);
 }
 
+ul li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 10px;
+}
+
+ul li.active .tab-label::before {
+    background: var(--yellow)
+}
+
+
 .tabs li.active .tab-label {
-    color: var(--pink)
+    color: var(--yellow)
 }
 
 .email-box {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: var(--midblue);
+    border: 3px solid var(--lightblue);
+    cursor: url('/img/2.png'), auto;
 }
 
 .email-box:hover {
@@ -837,14 +880,17 @@ a {
 .email-box input[type="email"] {
     flex: 1;
     padding: 8px;
-    margin-right: 10px;
     margin-left: 4px;
     border: none;
     background-color: transparent;
     transition: border-bottom-color 0.3s ease;
-    color: var(--darkgreen);
+    color: var(--blue);
+    font-weight: bold;
+    letter-spacing: 0.5px;
     outline: none;
     font-size: 15px;
+    font-family: 'Open Sans';
+    cursor: url('/img/2.png'), auto;
 }
 
 .email-box input[type="email"]:hover {
@@ -852,24 +898,26 @@ a {
 }
 
 .email-box input[type="email"]::placeholder {
-    color: var(--blue);
+    color: white;
 }
 
 
 .email-box button {
-    padding: 12px 32px;
+    padding: 11px 30px;
     border: none;
     border-radius: 0px;
     background-color: var(--lightblue);
     font-weight: bold;
     font-size: 16px;
     color: var(--blue); 
+    border-left: 3px solid var(--lightblue);
     cursor: url('/img/2.png'), auto;
+    letter-spacing: 0.5px;
 }
   
 .email-box button:hover {
-    background-color: var(--lightyellow); 
-    transition: 0.3s ease;
+    color: white;
+    transition: 200ms ease;
 }
 
 .copyright {
@@ -878,14 +926,17 @@ a {
 
 img {
     -webkit-user-drag: none; /* For Safari and Chrome */
-    -moz-user-drag: none;    /* For Firefox */
-    -o-user-drag: none;      /* For Opera */
-    -ms-user-drag: none;     /* For Internet Explorer and Edge */
-  }
+    -moz-user-drag: none;
+    /* For Firefox */
+    -o-user-drag: none;
+    /* For Opera */
+    -ms-user-drag: none;
+    /* For Internet Explorer and Edge */
+}
 
-  .fade-in {
+.fade-in {
     opacity: 0;
-    animation: fadeIn 1s ease-in forwards;
+    animation: fadeIn 200ms ease-in forwards;
 }
 
 @keyframes fadeIn {
@@ -899,7 +950,12 @@ img {
     color: var(--yellow);
 }
 
-.contactemail:hover{
+.copiedLeft {
+    margin-right: 16px;
+    color: var(--yellow);
+}
+
+.contactemail:hover {
     text-decoration: underline;
     cursor: url('/img/2.png'), auto;
 }
@@ -916,17 +972,16 @@ img {
     width: 10px;
     display: block;
 }
-  
+
 
 .champions::-webkit-scrollbar-track {
     background: white;
 }
-  
+
 .champions::-webkit-scrollbar-thumb {
     background: var(--yellow);
 }
-  
+
 .champions::-webkit-scrollbar-thumb:hover {
     background: var(--darkorange);
 }
-
