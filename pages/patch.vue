@@ -1,5 +1,5 @@
 <template>
-    <div class="ph5 pv6 h-85vh">
+    <div class="page-container">
         <div class="flex flex-row space-between">
             <div class="mb7 w-20">
                 <div class="w-90">

@@ -12,7 +12,7 @@
                 </li>
             </ul>
         </nav>
-        <p>{{ activeTab.content }}</p>
+        <p class="tab-content">{{ activeTab.content }}</p>
     </div>
 </template>
 

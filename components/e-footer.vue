@@ -1,7 +1,7 @@
 <template>
-    <div class="ph5 mb4">
-        <div class="flex flex-row mb4">
-            <div class="w-33">
+    <div class="mb4">
+        <div class="flex flex-row mb4 footer">
+            <div class="w-33 text=div">
                 <p class="boldspace">THE EARNEST PROJECT</p>
                 <br>
                 <p>Stay Earnest.</p>
@@ -14,7 +14,7 @@
                     <a target="_blank" href="https://www.instagram.com/theearnestproject/"><img class="w-60 bluecursor" src="/img/ig.webp" alt=""></a>
                 </div>
             </div>
-            <div class="w-33">
+            <div class="w-33 text-div">
                 <newsletter />
             </div>
         </div> 

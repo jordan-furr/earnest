@@ -1,7 +1,9 @@
 <template>
-    <nav class="ph5 pt4">
+    <nav class="pt4">
         <div class="flex flex-row space-between align-center">
-            <p><NuxtLink class="logo-title" to="/">The Earnest Project</NuxtLink></p>
+            <p>
+                <NuxtLink class="logo-title" to="/">The Earnest Project</NuxtLink>
+            </p>
             <div class="flex flex-row flex-start">
                 <div class="flex flex-row nav-menu">
                     <p>
@@ -18,6 +20,25 @@
                     </p>
                 </div>
             </div>
+            <div class="mobile-menu">
+                <menuIcon :isOpen="isMenuVisible" @toggle-menu="toggleMenu" />
+                <menuOverlay :isVisible="isMenuVisible" @toggle-menu="toggleMenu" />
+            </div>
         </div>
     </nav>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isMenuVisible: false
+    }
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuVisible = !this.isMenuVisible;
+    }
+  }
+}
+</script>

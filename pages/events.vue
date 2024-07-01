@@ -1,5 +1,5 @@
 <template>
-    <div class="ph5 pv6 h-90vh">
+    <div class="page-container">
         <div class="">
             <div class="mb7 w-25">
                 <p class="boldspace">UPCOMING</p>
