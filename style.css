@@ -686,15 +686,18 @@ a {
 }
 
 .nav-menu {
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: 600;
     letter-spacing: 1px;
-    gap: 1.25rem;
+    gap: 1rem;
 }
 
 .menu-item {
     cursor: url('/img/2.png'), auto;
     letter-spacing: 1px;
+}
+
+.menu-item:hover {
+    color: var(--yellow);
 }
 
 .logo-patch {
@@ -704,10 +707,14 @@ a {
 }
 
 .logo-title {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     letter-spacing: 1px;
     cursor: url('/img/2.png'), auto;
+}
+
+.logo-title:hover {
+    color: var(--yellow);
 }
 
 .logo-patch-container {
@@ -722,7 +729,7 @@ a {
 }
 
 .active {
-    color: var(--pink);
+    color: var(--yellow);
 }
 
 .home-word {
@@ -834,34 +841,15 @@ a {
 .tabs li .tab-label {
     cursor: url('/img/2.png'), auto;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.15;
 }  
 
-.tabs li .tab-label::before {
-    content: '';
-    left: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 12px;
-    height: 12px;
-    background: white;
-    clip-path: circle(5px);
-}
-
-ul li {
-    position: relative;
-    padding-left: 18px;
-    margin-bottom: 10px;
-}
-
-ul li.active .tab-label::before {
-    background: var(--yellow)
-}
-
-
 .tabs li.active .tab-label {
+    color: var(--yellow)
+}
+
+.tabs li .tab-label:hover {
     color: var(--yellow)
 }
 
@@ -870,16 +858,14 @@ ul li.active .tab-label::before {
     align-items: center;
     background-color: var(--midblue);
     border: 3px solid var(--lightblue);
-    cursor: url('/img/2.png'), auto;
-}
-
-.email-box:hover {
-    cursor: url('/img/2.png'), auto;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
 }
 
 .email-box input[type="email"] {
     flex: 1;
-    padding: 8px;
+    padding: 10px;
     margin-left: 4px;
     border: none;
     background-color: transparent;
@@ -890,11 +876,7 @@ ul li.active .tab-label::before {
     outline: none;
     font-size: 15px;
     font-family: 'Open Sans';
-    cursor: url('/img/2.png'), auto;
-}
-
-.email-box input[type="email"]:hover {
-    cursor: url('/img/2.png'), auto;
+    min-width: 0;
 }
 
 .email-box input[type="email"]::placeholder {
@@ -903,7 +885,7 @@ ul li.active .tab-label::before {
 
 
 .email-box button {
-    padding: 11px 30px;
+    padding: 12px 24px;
     border: none;
     border-radius: 0px;
     background-color: var(--lightblue);
@@ -973,7 +955,6 @@ img {
     display: block;
 }
 
-
 .champions::-webkit-scrollbar-track {
     background: white;
 }
@@ -983,5 +964,25 @@ img {
 }
 
 .champions::-webkit-scrollbar-thumb:hover {
-    background: var(--darkorange);
+    background: var(--green);
+}
+
+.champion:hover {
+    color: var(--yellow);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .email-box button, .email-box input[type="email"]  {
+        font-size: 14px;
+    }
 }

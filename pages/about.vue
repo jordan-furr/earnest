@@ -85,17 +85,21 @@
                 </div>
             </div>
             <div class="w-20 text-right">
-                <p class="boldspace">ABOUT</p>
-                <br>
-                <p>Since 2017, our undertaking has been to discover, interview, and highlight indivduals engaged in all
-                    kinds of earnest
-                    endeavors.</p>
-                <br>
-                <p>The Earnest Project is a community and research initiative led by wife and husband Susannah Harmon Furr
-                    and Nathan R. Furr, co-authors of <a href="https://upschool.org"><em class="bluecursor">The Upside of
-                            Uncertainty</em></a>
-                    and co-founders of <a href="https://upschool.org" class="bluecursor">UP School</a>.
-                </p>
+                <div class="w-90 float-right">
+                    <p class="boldspace">ABOUT</p>
+                    <br>
+                    <p>Since 2017, our undertaking has been to discover, interview, and highlight indivduals engaged in all
+                        kinds of earnest
+                        endeavors.</p>
+                    <br>
+                    <p>The Earnest Project is a community and research initiative led by wife and husband Susannah Harmon
+                        Furr
+                        and Nathan R. Furr, co-authors of <a href="https://upschool.org"><em class="bluecursor">The Upside
+                                of
+                                Uncertainty</em></a>
+                        and co-founders of <a href="https://upschool.org" class="bluecursor">UP School</a>.
+                    </p>
+                </div>
             </div>
         </div>
     </div>

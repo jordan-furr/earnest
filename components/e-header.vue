@@ -11,7 +11,7 @@
                         <NuxtLink class="menu-item" to="/champions" exact-active-class="active">Champions</NuxtLink>
                     </p>
                     <p>
-                        <NuxtLink class="menu-item" to="/collaborate" exact-active-class="active">Collaborate</NuxtLink>
+                        <NuxtLink class="menu-item" to="/collaborate" exact-active-class="active">Collab</NuxtLink>
                     </p>
                     <p>
                         <NuxtLink class="menu-item" to="/patch" exact-active-class="active">STAY EARNEST</NuxtLink>
