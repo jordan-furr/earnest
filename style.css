@@ -25,7 +25,7 @@ body {
     padding: 0;
     line-height: 1.15;
     font-family: 'Open Sans';
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
     scroll-snap-type: none;
 }
 
@@ -656,10 +656,6 @@ body {
     background-color: var(--orange);
 }
 
-*::-webkit-scrollbar {
-    display: none;
-}
-
 * {
     cursor: url('/img/1.png'), auto;
 }
@@ -1232,10 +1228,6 @@ img {
 
     .twenty-spacer {
         height: 20px;
-    }
-
-    *::-webkit-scrollbar {
-        display: none;
     }
 
     .tab-content {
