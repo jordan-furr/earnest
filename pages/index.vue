@@ -2,17 +2,16 @@
     <div class="page-container">
         <div class="w-100 flex flex-row mobile-col">
             <div class="w-20 text-div">
-                <div class="w-90">
-                    <values-menu />
-                </div>
+                <values-menu />
             </div>
             <div class="w-60 mt6 ph3 interactive-venn">
                 <interactive-venn />
             </div>
-            <div class="ph3">
-                <mobile-venn />
-            </div>
-            <div class="w-20 text-right text-div">
+            <div class="w-20 text-right text-div mobile-text-left">
+                <div class="hide-web">
+                    <p class="boldspace">EARNEST</p>
+                    <br>
+                </div>
                 <p>celebrating earnest</p>
                 <p>an underrated word</p>
                 <p>describing a gravity of traits</p>

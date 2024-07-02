@@ -30,7 +30,7 @@ body {
 }
 
 html {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     overflow-y: scroll;
 }
 
@@ -846,7 +846,6 @@ a {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-bottom: 2rem;
     cursor: url('/img/2.png'), auto;
 }
 
@@ -871,8 +870,7 @@ a {
     background-color: var(--midblue);
     border: 3px solid var(--lightblue);
     overflow: hidden;
-    max-width: 100%;
-    width: 100%;
+    max-width: 98%;
 }
 
 .email-box input[type="email"] {
@@ -961,6 +959,7 @@ img {
 
 .champions {
     height: 70vh;
+    overflow-y: scroll;
 }
 
 .champions::-webkit-scrollbar {
@@ -986,6 +985,7 @@ img {
 
 .tab-content {
     height: 60px;
+    margin-top: 2rem;
 }
 
 .menu-icon {
@@ -1019,13 +1019,14 @@ img {
 }
 
 .menu-overlay nav ul li {
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
 }
 
 .menu-overlay nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    font-weight: bold;
 }
 
 
@@ -1055,7 +1056,7 @@ img {
 
 @media (max-width: 900px) {
     .home-word {
-        font-size: 21px;
+        font-size: 19px;
     }
 
     .home-venn {
@@ -1067,15 +1068,8 @@ img {
 
 }
 
-@media (max-width: 800px) {
-    .home-word {
-        font-size: 20px;
-    }
 
-}
-
-
-@media (max-width: 767px) {
+@media (max-width: 846px) {
     .nav-menu {
         display: none;
     }
@@ -1103,7 +1097,7 @@ img {
 
     .tabs li .tab-label {
         font-size: 18px;
-        line-height: 1.25;
+        line-height: 1.5;
     }
 
     .app-container {
@@ -1112,18 +1106,23 @@ img {
     }
 
     .page-container {
-        padding-top: 2rem;
-        padding-bottom: 3rem;
+        padding-top: 5rem;
+        margin-bottom: 3rem;
+        min-height: 100%;
         height: max-content;
     }
 
     .header {
         padding-top: 1rem;
+        position: fixed;
+        background-color: var(--orange);
+        padding-bottom: 1rem;
+        z-index: 1000;
     }
 
     .footer {
-        flex-direction: column;
         margin-top: 3rem;
+        flex-direction: column-reverse;
     }
 
     .ig {
@@ -1131,12 +1130,16 @@ img {
     }
 
     .newsletter {
-        width: 80%;
-        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     .champions {
         height: max-content;
+        overflow-y: visible;
+    }
+
+    .champion-marg {
+        margin: 0;
     }
 
     .logo-patch-container {
@@ -1146,6 +1149,10 @@ img {
 
     .logo-patch {
         width: 100%;
+    }
+
+    .logo-title:hover {
+        color: white;
     }
 
     .mobile-text-left {
@@ -1167,28 +1174,94 @@ img {
         margin: 0;
     }
 
+    .big-patch img {
+        width: 66%;
+    }
+
     .twenty-spacer {
         height: 20px;
     }
 
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+    .tab-content {
+        width: 50%;
+        margin-bottom: 4rem;
+    }
+
+    .venn-half {
+        text-align: center;
+    }
+
+    .venn-half img {
+        width: 50%;
+    }
+
+    .col-reverse {
+        flex-direction: column-reverse;
+    }
+
 }
 
-@media (min-width: 768px) {
+@media (max-width: 734px) {
+    .venn-half img {
+        width: 60%;
+    }
+    
+}
+
+
+@media (max-width: 600px) {
+    .email-box button,
+    .email-box input[type="email"] {
+        font-size: 14px;
+    }
+
+    .venn-half img {
+        width: 65%;
+    }
+
+    
+}
+
+@media (max-width: 518px) {
+    .email-box button,
+    .email-box input[type="email"] {
+        font-size: 14px;
+    }
+
+    .venn-half img {
+        width: 70%;
+    }
+
+    .tab-content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 470px) {
+    .venn-half img {
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 847px) {
     .mobile-menu {
       display: none;
     }
     .mobile-venn {
         display: none;
     }
-}
-
-
-
-
-@media (max-width: 600px) {
-
-    .email-box button,
-    .email-box input[type="email"] {
-        font-size: 14px;
+    .venn-half {
+        display: none;
+    }
+    .hide-web{
+        display: none;
     }
 }
+
+
+

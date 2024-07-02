@@ -1,5 +1,5 @@
 <template>
-    <nav class="pt4 header">
+    <nav class="pt4 header w-100">
         <div class="flex flex-row space-between align-center">
             <p>
                 <NuxtLink class="logo-title" to="/">The Earnest Project</NuxtLink>

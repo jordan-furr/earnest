@@ -1,7 +1,7 @@
 <template>
     <div class="page-container">
         <div class="w-100 flex flex-row mobile-col">
-            <div class="w-20 text-div">
+            <div class="w-20 text-div mb6">
                 <div class="w-90">
                     <p class="boldspace">MANIFESTO</p>
                     <br>
@@ -22,10 +22,7 @@
             <div class="w-60 mt6 ph3 interactive-venn">
                 <interactive-venn />
             </div>
-            <div>
-                <mobile-venn />
-            </div>
-            <div class="w-20 text-right text-div mobile-text-left">
+            <div class="w-20 text-right text-div mobile-text-left mb6">
                 <div class="w-90 float-right mobile-float-left">
                     <p class="boldspace">ABOUT</p>
                     <br>
@@ -41,6 +38,9 @@
                         and co-founders of <a href="https://upschool.org" class="bluecursor">UP School</a>.
                     </p>
                 </div>
+            </div>
+            <div>
+                <mobile-venn />
             </div>
         </div>
     </div>
