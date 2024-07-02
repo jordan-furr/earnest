@@ -26,12 +26,6 @@ body {
     line-height: 1.15;
     font-family: 'Open Sans';
     scroll-behavior: smooth !important;
-    scroll-snap-type: none;
-}
-
-html {
-    overflow-x: hidden !important;
-    overflow-y: scroll;
 }
 
 body {
@@ -670,14 +664,32 @@ a {
 }
 
 .app-container {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    height: 98vh;
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-direction: column;
 }
 
 .page-container {
-    padding-top: 3rem;
-    height: max-content;
+    flex: 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    min-height: max-content;
+}
+
+.page {
+    min-height: 82vh;
+}
+
+.header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: var(--orange);
+    z-index: 999;
 }
 
 .font14 {
@@ -957,6 +969,10 @@ img {
     overflow-y: scroll;
 }
 
+*::-webkit-scrollbar {
+    display: none;
+}
+
 .champions::-webkit-scrollbar {
     width: 10px;
     display: block;
@@ -1030,8 +1046,6 @@ img {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    position: relative;
-    bottom: 0;
 }
 
 
@@ -1103,7 +1117,7 @@ img {
     .home-venn {
         padding-left: 1rem;
         padding-right: 1rem;
-        padding-top: 0.25rem;
+        padding-top: 0.5rem;
         padding-bottom: 1rem;
     }
 
@@ -1119,6 +1133,12 @@ img {
 
 
 @media (max-width: 846px) {
+    .header-cont {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
     .nav-menu {
         display: none;
     }
@@ -1141,7 +1161,14 @@ img {
     }
 
     .home-word {
-        font-size: 16px;
+        font-size: 22px;
+    }
+
+    .home-venn {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
     }
 
     .tabs li .tab-label {
@@ -1150,23 +1177,13 @@ img {
     }
 
     .app-container {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
         height: max-content;
     }
 
     .page-container {
-        padding-top: 5rem;
-        margin-bottom: 5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
         min-height: max-content;
-    }
-
-    .header {
-        padding-top: 1rem;
-        position: fixed;
-        background-color: var(--orange);
-        padding-bottom: 1rem;
-        z-index: 1000;
     }
 
     .footer {
@@ -1278,6 +1295,16 @@ img {
         width: 90%;
     }
 
+    .home-word {
+        font-size: 20px;
+    }
+
+    .home-venn {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
     
 }
 
@@ -1300,6 +1327,11 @@ img {
     .venn-half img {
         width: 80%;
     }
+
+    .home-word {
+        font-size: 16px;
+    }
+
 }
 
 

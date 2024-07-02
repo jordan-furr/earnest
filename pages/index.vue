@@ -1,5 +1,5 @@
 <template>
-    <div class="page-container">
+    <div class="page">
         <div class="w-100 flex flex-row mobile-col">
             <div class="w-20 text-div">
                 <values-menu />

@@ -1,5 +1,5 @@
 <template>
-    <div class="page-container">
+    <div class="page">
         <div class="flex flex-row space-between mobile-col col-reverse">
             <div class="w-20 text-div">
                 <div class="champions">

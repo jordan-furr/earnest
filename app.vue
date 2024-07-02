@@ -1,9 +1,11 @@
 <template>
   <div class="app-container">
     <e-header />
-    <NuxtPage />
+    <div class="page-container">
+      <NuxtPage />
+    </div>
+    <e-footer />
   </div>
-  <e-footer />
 </template>
 
 
@@ -17,4 +19,5 @@ useHead({
     class: 'test'
   }
 })
+
 </script>

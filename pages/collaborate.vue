@@ -1,5 +1,5 @@
 <template>
-    <div class="page-container">
+    <div class="page">
         <div class="flex flex-row space-between mobile-col">
             <div class="w-20 text-div">
                 <div class="w-90">

@@ -3,6 +3,10 @@
         <nav @click.stop>
             <ul>
                 <li>
+                    <NuxtLink class="menu-item" to="/" @click="closeMenu" exact-active-class="active">Home
+                    </NuxtLink>
+                </li>
+                <li>
                     <NuxtLink class="menu-item" to="/about" @click="closeMenu" exact-active-class="active">Manifesto
                     </NuxtLink>
                 </li>
