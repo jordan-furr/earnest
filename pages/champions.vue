@@ -36,8 +36,8 @@
                         <br>
                         <br>
                         <br>
-                        <div class="w-100">
-                            <img class="w-100" src="/img/earnest.jpg" alt="">
+                        <div class="w-100 text-center">
+                            <img class="w-100 musician" src="/img/earnest.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -59,6 +59,6 @@
         </div>
     </div>
     <div class="logo-patch-container w-15">
-        <a href="/patch"><img class="logo-patch w-90 float-right" src="/img/Earnest Project Patch.png" alt=""></a>
+        <a href="/patch"><img class="logo-patch w-66 float-right" src="/img/Earnest Project Patch.png" alt=""></a>
     </div>
 </template>

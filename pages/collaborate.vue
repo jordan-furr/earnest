@@ -15,11 +15,6 @@
                         <br>
                         <p>Are you interested in being interviewed for The Earnest Project?</p>
                     </div>
-                    <div class="mb6">
-                        <p class="boldspace">RESEARCH</p>
-                        <br>
-                        <p>Would you like to aid in research for The Earnest Project?</p>
-                    </div>
                 </div>
             </div>
             <div class="w-60 mt6 ph3 interactive-venn">
@@ -39,7 +34,7 @@
         </div>
     </div>
     <div class="logo-patch-container w-15">
-        <a href="/patch"><img class="logo-patch w-90 float-right" src="/img/Earnest Project Patch.png" alt=""></a>
+        <a href="/patch"><img class="logo-patch w-66 float-right" src="/img/Earnest Project Patch.png" alt=""></a>
     </div>
 </template>
 

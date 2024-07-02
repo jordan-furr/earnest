@@ -37,6 +37,7 @@ html {
 body {
     min-height: 100vh;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 p {
@@ -675,12 +676,12 @@ a {
 .app-container {
     padding-left: 2rem;
     padding-right: 2rem;
+    height: 98vh;
 }
 
 .page-container {
     padding-top: 3rem;
-    padding-bottom: 3rem;
-    height: 85vh;
+    height: max-content;
 }
 
 .font14 {
@@ -733,6 +734,7 @@ a {
     position: fixed;
     right: 2rem;
     bottom: 2rem;
+    z-index: 1000;
 }
 
 .logo-patch:hover {
@@ -867,24 +869,22 @@ a {
 .email-box {
     display: flex;
     align-items: center;
-    background-color: var(--midblue);
-    border: 3px solid var(--lightblue);
+    background-color: transparent;
+    border-bottom: 2px solid white;
     overflow: hidden;
-    max-width: 98%;
 }
 
 .email-box input[type="email"] {
     flex: 1;
-    padding: 10px;
     margin-left: 4px;
     border: none;
     background-color: transparent;
     transition: border-bottom-color 0.3s ease;
-    color: var(--blue);
-    font-weight: bold;
+    color: var(--lightyellow);
     letter-spacing: 0.5px;
     outline: none;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 14px;
     font-family: 'Open Sans';
     min-width: 0;
 }
@@ -898,17 +898,16 @@ a {
     padding: 12px 24px;
     border: none;
     border-radius: 0px;
-    background-color: var(--lightblue);
+    background-color: transparent;
     font-weight: bold;
     font-size: 16px;
-    color: var(--blue);
-    border-left: 3px solid var(--lightblue);
+    color: white;
     cursor: url('/img/2.png'), auto;
     letter-spacing: 0.5px;
 }
 
 .email-box button:hover {
-    color: white;
+    color: var(--lightyellow);
     transition: 200ms ease;
 }
 
@@ -958,7 +957,7 @@ img {
 }
 
 .champions {
-    height: 70vh;
+    height: 75vh;
     overflow-y: scroll;
 }
 
@@ -980,7 +979,7 @@ img {
 }
 
 .champion:hover {
-    color: var(--yellow);
+    text-decoration:underline;
 }
 
 .tab-content {
@@ -1029,11 +1028,22 @@ img {
     font-weight: bold;
 }
 
+.footer {
+    background-color: var(--midblue);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    bottom: 0;
+}
 
 
 
 
-@media (max-width: 1124px) {
+
+
+@media (max-width: 1300px) {
     .home-word {
         font-size: 26px;
     }
@@ -1045,16 +1055,51 @@ img {
         padding-bottom: 2rem;
     }
 
-}
-
-@media (max-width: 1000px) {
-    .home-word {
-        font-size: 24px;
+    .interactive-venn {
+        margin-top: 3.5rem;
     }
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1190px) {
+    .home-word {
+        font-size: 24px;
+    }
+
+    .home-venn {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .interactive-venn {
+        margin-top: 4.5rem;
+    }
+
+    .ig {
+        width: 66%;
+    }
+
+}
+
+@media (max-width: 1080px) {
+    .home-word {
+        font-size: 22px;
+    }
+
+    .home-venn {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    
+
+}
+
+@media (max-width: 950px) {
     .home-word {
         font-size: 19px;
     }
@@ -1064,6 +1109,14 @@ img {
         padding-right: 1rem;
         padding-top: 0.25rem;
         padding-bottom: 1rem;
+    }
+
+    .interactive-venn {
+        margin-top: 6rem;
+    }
+
+    .ig {
+        width: 80%;
     }
 
 }
@@ -1103,13 +1156,13 @@ img {
     .app-container {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+        height: max-content;
     }
 
     .page-container {
         padding-top: 5rem;
-        margin-bottom: 3rem;
-        min-height: 100%;
-        height: max-content;
+        margin-bottom: 5rem;
+        min-height: max-content;
     }
 
     .header {
@@ -1121,12 +1174,11 @@ img {
     }
 
     .footer {
-        margin-top: 3rem;
-        flex-direction: column-reverse;
+        padding: 1.5rem;
     }
 
     .ig {
-        width: 35%;
+        width: 20%;
     }
 
     .newsletter {
@@ -1203,13 +1255,20 @@ img {
         flex-direction: column-reverse;
     }
 
+    .musician {
+        width: 80%;
+    }
+
+    .footer-div {
+        width: 75%;
+    }
+
 }
 
 @media (max-width: 734px) {
     .venn-half img {
         width: 60%;
     }
-    
 }
 
 
@@ -1221,6 +1280,10 @@ img {
 
     .venn-half img {
         width: 65%;
+    }
+
+    .footer-div {
+        width: 90%;
     }
 
     

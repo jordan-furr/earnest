@@ -2,8 +2,8 @@
   <div class="app-container">
     <e-header />
     <NuxtPage />
-    <e-footer />
   </div>
+  <e-footer />
 </template>
 
 

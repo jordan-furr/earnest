@@ -26,7 +26,7 @@ export default {
     <div>
         <p class="boldspace">NEWSLETTER</p>
         <br>
-        <p>Sign up for updates on Earnest Project events, research, and collaboration opportunities.</p>
+        <p>Sign up for updates about The Earnest Project, including events, research, and opportunities.</p>
         <br>
         <div class="email-box">
             <input type="email" id="emailInput" placeholder="your email..." autocomplete="off">

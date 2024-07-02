@@ -23,6 +23,6 @@
         </div>
     </div>
     <div class="logo-patch-container w-15">
-        <a href="/patch"><img class="logo-patch w-90 float-right" src="/img/Earnest Project Patch.png" alt=""></a>
+        <a href="/patch"><img class="logo-patch w-66 float-right" src="/img/Earnest Project Patch.png" alt=""></a>
     </div>
 </template>
