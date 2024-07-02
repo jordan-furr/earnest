@@ -1003,7 +1003,7 @@ img {
     font-size: 40px;
     cursor: pointer;
     position: fixed;
-    top: 5px;
+    top: 4px;
     right: 1.5rem;
     z-index: 1000;
     color: white;
@@ -1187,7 +1187,9 @@ img {
     }
 
     .footer {
-        padding: 1.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        padding-bottom: 1.5rem;
     }
 
     .ig {
