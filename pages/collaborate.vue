@@ -2,7 +2,7 @@
     <div class="page">
         <div class="flex flex-row space-between mobile-col">
             <div class="w-20 text-div">
-                <div class="w-90">
+                <div class="w-90 text-div">
                     <div class="mb6">
                         <p class="boldspace">COLLABORATE</p>
                         <br>

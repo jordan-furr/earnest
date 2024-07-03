@@ -7,7 +7,7 @@
                     </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink class="menu-item" to="/about" @click="closeMenu" exact-active-class="active">Manifesto
+                    <NuxtLink class="menu-item" to="/about" @click="closeMenu" exact-active-class="active">About
                     </NuxtLink>
                 </li>
                 <li>

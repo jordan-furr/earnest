@@ -2,7 +2,7 @@
     <div class="page">
         <div class="w-100 flex flex-row mobile-col">
             <div class="w-20 text-div mb6">
-                <div class="w-90">
+                <div class="w-90 text-div">
                     <p class="boldspace">MANIFESTO</p>
                     <br>
                     <p>We are curious and believe that if one is earnest there will be more than growth awaiting your
@@ -23,14 +23,14 @@
                 <interactive-venn />
             </div>
             <div class="w-20 text-right text-div mobile-text-left mb6">
-                <div class="w-90 float-right mobile-float-left">
+                <div class="w-90 float-right text-div">
                     <p class="boldspace">ABOUT</p>
                     <br>
                     <p>Since 2017, our undertaking has been to discover, interview, and highlight indivduals engaged in all
                         kinds of earnest
                         endeavors.</p>
                     <br>
-                    <p>The Earnest Project is a community and research initiative led by wife and husband Susannah Harmon
+                    <p>Earnest Project is a community and research initiative led by wife and husband Susannah Harmon
                         Furr
                         and Nathan R. Furr, co-authors of <a href="https://upschool.org"><em class="bluecursor">The Upside
                                 of

@@ -3,7 +3,7 @@
         <div class="flex flex-row mb6 col-reverse w-85 text-div space-between">
             <div class="w-25 text-div">
                 <div class="w-80">
-                    <p class="boldspace">THE EARNEST PROJECT</p>
+                    <p class="boldspace">EARNEST PROJECT</p>
                     <br>
                     <p class="mb1">Stay Earnest.</p>
                     <span @click="copyEmail" style="color: white;" class="contactemail">info@upschool.org</span>
@@ -26,6 +26,8 @@
                 </div>
             </div>
             <div class="w-30 text-div newsletter footer-div">
+                <p class="boldspace">NEWSLETTER</p>
+                <br>
                 <newsletter />
             </div>
         </div>

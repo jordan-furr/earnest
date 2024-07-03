@@ -1,10 +1,25 @@
 <template>
     <div class="page">
-        <div class="w-100 flex flex-row mobile-col">
+        <div class="headline-cont">
+            <div class="headline-text web fade-in">
+                <p>Can Earnestness Change the World?</p>
+                <p>Our Exploration Begins Here</p>
+            </div>
+            <div class="headline-text mobile fade-in">
+                <p>Can Earnestness Change the World? Our Exploration Begins Here</p>
+            </div>
+            <div class="w-35 headline-newsletter">
+                <newsletter />
+            </div>
+        </div>
+        <div class="trait-intro">
+            <p>What is Earnest?</p>
+        </div>
+        <div class="w-100 flex flex-row mobile-col mb8">
             <div class="w-20 text-div">
                 <values-menu />
             </div>
-            <div class="w-60 mt6 ph3 interactive-venn">
+            <div class="w-60 mt8 ph3 interactive-venn mb6">
                 <interactive-venn />
             </div>
             <div class="w-20 text-right text-div mobile-text-left">

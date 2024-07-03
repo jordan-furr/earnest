@@ -24,11 +24,9 @@ export default {
 
 <template>
     <div>
-        <p class="boldspace">NEWSLETTER</p>
+        <p>Join our community celebrating earnest living. You'll receive project updates, research findings, and exclusive stories.</p>
         <br>
-        <p>Sign up for updates about The Earnest Project, including events, research, and opportunities.</p>
-        <br>
-        <div class="email-box">
+        <div class="email-box fade-in">
             <input type="email" id="emailInput" placeholder="your email..." autocomplete="off">
             <button @click="submitEmail()">join</button>
         </div>

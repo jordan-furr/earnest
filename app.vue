@@ -10,14 +10,11 @@
 
 
 <script setup lang="ts">
-useHead({
+useSeoMeta({
   title: 'Earnest Project',
-  meta: [
-    { name: 'Earnest Project', content: 'Welcome to the Earnest Project.' }
-  ],
-  bodyAttrs: {
-    class: 'test'
-  }
+  ogTitle: 'Earnest Project',
+  description: 'Can Earnestness Change the World? Our Exploration Begins Here',
+  ogDescription: 'Can Earnestness Change the World? Our Exploration Begins Here',
+  ogImage: '/img/Earnest Social Share.png'
 })
-
 </script>

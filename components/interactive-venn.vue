@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col">
+    <div class="flex flex-col fade-in">
         <div class="text-center">
             <div class="hover-whole">
                 <p class="home-word mh3">wholehearted</p>
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="w-40 home-venn">
-                <img class="w-100 fade-in" src="/img/Earnest Venn Diagram Only.png" alt="">
+                <img class="w-100" src="/img/Earnest Venn Diagram Only.png" alt="">
             </div>
             <div class="w-30 flex flex-col space-around">
                 <div class="float-left">

@@ -4,7 +4,7 @@
             <nav>
                 <div class="flex flex-row space-between align-center">
                     <p>
-                        <a href="/" class="logo-title">The Earnest Project</a>
+                        <a href="/" class="logo-title">Earnest Project</a>
                     </p>
                     <div class="flex flex-row flex-start">
                         <div class="flex flex-row nav-menu">
