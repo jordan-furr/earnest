@@ -1073,7 +1073,7 @@ img {
 }
 
 .footer {
-    background-color: #d3b4a0;
+    background-color: #c9a48f;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2.5rem;
@@ -1415,10 +1415,6 @@ img {
 
     .col-reverse {
         flex-direction: column-reverse;
-    }
-
-    .musician {
-        width: 80%;
     }
 
     .footer-div {
