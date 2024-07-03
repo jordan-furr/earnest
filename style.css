@@ -703,12 +703,12 @@ a {
     flex: 1;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 6rem;
+    padding-top: 5rem;
     min-height: max-content;
 }
 
 .page {
-    min-height: 82vh;
+    min-height: 85vh;
     padding-bottom: 5rem;
     box-sizing: border-box;
 }
@@ -1082,8 +1082,8 @@ img {
 }
 
 .headline-cont {
-    padding-top: 7rem;
-    padding-bottom: 21rem;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1199,7 +1199,7 @@ img {
     }
 
     .headline-cont {
-        padding-bottom: 23rem;
+        padding-bottom: 14rem;
     }
 
     .headline-text {
@@ -1239,7 +1239,7 @@ img {
     .headline-cont {
         margin-left: 0;
         padding-top: 5rem;
-        padding-bottom: 14rem;
+        padding-bottom: 10rem;
     }
 
     .trait-intro p {

@@ -19,7 +19,7 @@
                         known.</p>
                 </div>
             </div>
-            <div class="w-60 mt6 ph3 interactive-venn">
+            <div class="w-60 mt5 ph3 interactive-venn">
                 <interactive-venn />
             </div>
             <div class="w-20 text-right text-div mobile-text-left mb6">
