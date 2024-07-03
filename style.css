@@ -1024,7 +1024,7 @@ img {
 }
 
 .tab-content {
-    height: 60px;
+    height: 70px;
     margin-top: 2rem;
 }
 
@@ -1322,7 +1322,7 @@ img {
 
     .tabs li .tab-label {
         font-size: 18px;
-        line-height: 1.5;
+        line-height: 1.75;
     }
 
     .app-container {
@@ -1553,7 +1553,7 @@ img {
 
 @media (max-width: 470px) {
     .venn-half img {
-        width: 80%;
+        width: 86%;
     }
 
     .home-word {
