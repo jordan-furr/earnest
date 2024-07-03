@@ -433,7 +433,11 @@ h6 {
 }
 
 .mt1 {
-    margin-top: 1px;
+    margin-top: .25rem;
+}
+
+.mt2 {
+    margin-top: .5rem;
 }
 
 .mt3 {
@@ -1023,7 +1027,7 @@ img {
 }
 
 .champion:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .tab-content {
@@ -1086,7 +1090,7 @@ img {
 
 .headline-cont {
     padding-top: 6rem;
-    padding-bottom: 10rem;
+    padding-bottom: 13rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1115,7 +1119,30 @@ img {
     font-size: 30px;
 }
 
+@media (min-width: 1500px) {
+    .headline-cont {
+        padding-bottom: 15rem;
+    }
+}
 
+@media (min-width: 1600px) {
+    .headline-cont {
+        padding-top: 7rem;
+        padding-bottom: 17rem;
+    }
+}
+
+@media (min-width: 1700px) {
+    .headline-cont {
+        padding-bottom: 19rem;
+    }
+}
+
+@media (min-width: 1800px) {
+    .headline-cont {
+        padding-bottom: 22rem;
+    }
+}
 
 @media (max-width: 1370px) {
     .headline-newsletter {
@@ -1187,16 +1214,16 @@ img {
 
     .headline-text p {
         font-size: 46px;
-    }  
+    }
 
 }
 
 @media (max-width: 1000px) {
-    
+
     .headline-text p {
         font-size: 42px;
     }
-    
+
     .headline-newsletter {
         width: 60%;
     }
@@ -1233,7 +1260,7 @@ img {
 
     .headline-text p {
         font-size: 54px;
-    }  
+    }
 
     .headline-text {
         width: 70%;
@@ -1377,7 +1404,7 @@ img {
         text-align: left;
     }
 
-    .mobile-float-left{
+    .mobile-float-left {
         float: left;
     }
 
@@ -1419,7 +1446,7 @@ img {
 
     .footer-div {
         width: 75%;
-    }  
+    }
 
 }
 
@@ -1427,6 +1454,7 @@ img {
     .headline-newsletter {
         width: 65%;
     }
+
     .headline-text {
         width: 80%;
     }
@@ -1457,6 +1485,7 @@ img {
 }
 
 @media (max-width: 600px) {
+
     .email-box button,
     .email-box input[type="email"] {
         font-size: 14px;
@@ -1497,7 +1526,7 @@ img {
         padding-top: 4rem;
         padding-bottom: 13rem;
     }
-    
+
 }
 
 @media (max-width: 550px) {
@@ -1505,9 +1534,10 @@ img {
         font-size: 48px;
     }
 }
-   
+
 
 @media (max-width: 518px) {
+
     .email-box button,
     .email-box input[type="email"] {
         font-size: 14px;
@@ -1544,6 +1574,7 @@ img {
     .headline-text p {
         font-size: 40px;
     }
+
     .headline-text {
         margin-bottom: 2rem;
     }
@@ -1558,6 +1589,7 @@ img {
     .home-word {
         font-size: 16px;
     }
+
     .ig {
         width: 55%;
     }
@@ -1602,18 +1634,18 @@ img {
 
 @media (min-width: 847px) {
     .mobile-menu {
-      display: none;
+        display: none;
     }
+
     .mobile-venn {
         display: none;
     }
+
     .venn-half {
         display: none;
     }
-    .hide-web{
+
+    .hide-web {
         display: none;
     }
 }
-
-
-

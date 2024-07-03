@@ -9,6 +9,7 @@
         <p class="boldspace mb2 yellow">ARTISTS</p>
         <p class="champion">Lynne Curran & David Swift</p>
         <p class="champion">Birgitta de Vos</p>
+        <p class="champion">Laurène Piju</p>
         <br>
         <p class="boldspace mb2 yellow">MUSICIANS</p>
         <p class="champion">Eric Tinkerhess</p>

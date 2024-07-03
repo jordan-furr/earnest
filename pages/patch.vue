@@ -9,7 +9,7 @@
                         motto.</p>
                     <br>
                     <p>We believe in the power of inspiring each other into earnestness and championing earnest efforts and
-                        messages. If you would like a patch, please reach out and we will mail you one free of charge.</p>
+                        messages. If you would like a patch, please reach out.</p>
                 </div>
             </div>
             <div class="w-60 text-center mt6 ph3 big-patch">
