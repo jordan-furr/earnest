@@ -22,7 +22,7 @@
             <div class="w-60 mt5 ph3 interactive-venn">
                 <interactive-venn />
             </div>
-            <div class="w-20 text-right text-div">
+            <div class="w-20 text-right text-div mobile-text-left">
                 <div class="hide-web">
                     <p class="boldspace">EARNEST</p>
                     <br>

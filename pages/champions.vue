@@ -12,7 +12,7 @@
                         <div class="w-100 text-center">
                             <img class="w-100 musician" src="/img/earnest.jpg" alt="">
                         </div>
-                        <p class="font14 mt1">Art: Laurène Piju</p>
+                        <p class="font14 mt2">Art: Laurène Piju</p>
                     </div>
                 </div>
             </div>
