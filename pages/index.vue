@@ -15,7 +15,7 @@
         <div class="trait-intro">
             <p>What is Earnest?</p>
         </div>
-        <div class="w-100 flex flex-row mobile-col mb6">
+        <div class="w-100 flex flex-row mobile-col mb5">
             <div class="w-20 text-div">
                 <values-menu />
             </div>

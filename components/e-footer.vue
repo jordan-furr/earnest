@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <div class="flex flex-row mb6 col-reverse w-85 text-div space-between">
+        <div class="flex flex-row mb7 col-reverse w-85 text-div space-between">
             <div class="w-25 text-div">
                 <div class="w-80">
                     <p class="boldspace">EARNEST PROJECT</p>
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-35 text-div mb6">
+            <div class="w-35 text-div mb7">
                 <div class="w-80 footer-div">
                     <p class="boldspace">EARNEST DEFINITION</p>
                     <br>

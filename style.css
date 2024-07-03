@@ -733,6 +733,9 @@ a {
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 18px;
+    opacity: 0;
+    animation: fadeIn 200ms ease-in forwards;
+
 }
 
 .nav-menu {
@@ -1024,7 +1027,7 @@ img {
 }
 
 .tab-content {
-    height: 70px;
+    height: 100px;
     margin-top: 2rem;
 }
 
@@ -1345,7 +1348,7 @@ img {
     }
 
     .newsletter {
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
 
     .champions {
